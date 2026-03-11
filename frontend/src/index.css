@@ -21,7 +21,7 @@ body {
   background-color: var(--bg-color);
 
   /* Adding the subtle map background at 50% visibility using linear-gradient to overlay on top of the map image */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/bg_map.png');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('./assets/bg_map.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

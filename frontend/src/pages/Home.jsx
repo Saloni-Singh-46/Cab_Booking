@@ -47,7 +47,7 @@ const Home = () => {
                     <div className="col-lg-7 d-none d-lg-block delay-200">
                         <div
                             className="bg-light rounded d-flex align-items-center justify-content-center"
-                            style={{ height: '600px', backgroundImage: 'url(/hero_image_new.png)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+                            style={{ height: '600px', backgroundImage: `url(${import.meta.env.BASE_URL}hero_image_new.png)`, backgroundSize: 'cover', backgroundPosition: 'center' }}
                         >
                             {/* In a real app, Mapbox would go here */}
                         </div>
